@@ -1,6 +1,6 @@
 {
   "name": "biggerquery",
-  "displayName": "Biggerquery",
+  "displayName": "BiggerQuery",
   "version": "0.0.1",
   "description": "Bigger experience with BigQuery",
   "author": "ahnsv <ahnsv@bc.edu>",
@@ -26,6 +26,10 @@
   "manifest": {
     "host_permissions": [
       "https://*/*"
+    ],
+    "permissions": [
+      "tabs",
+      "scripting"
     ]
   }
 }
