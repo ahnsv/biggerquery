@@ -1,0 +1,31 @@
+{
+  "name": "biggerquery",
+  "displayName": "Biggerquery",
+  "version": "0.0.1",
+  "description": "Bigger experience with BigQuery",
+  "author": "ahnsv <ahnsv@bc.edu>",
+  "scripts": {
+    "dev": "plasmo dev",
+    "build": "plasmo build",
+    "test": "plasmo test"
+  },
+  "dependencies": {
+    "plasmo": "0.80.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/chrome": "0.0.239",
+    "@types/node": "20.3.2",
+    "@types/react": "18.2.14",
+    "@types/react-dom": "18.2.6",
+    "prettier": "2.8.8",
+    "typescript": "5.1.6",
+    "@plasmohq/prettier-plugin-sort-imports": "3.6.4"
+  },
+  "manifest": {
+    "host_permissions": [
+      "https://*/*"
+    ]
+  }
+}
