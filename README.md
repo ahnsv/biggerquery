@@ -1,6 +1,12 @@
 # Bigger bigquery Experience, BiggerQuery
 Chrome extension to support bigquery experience
 
+## Roadmap 🛣
+- [ ] Config popup
+- [ ] Floating Button to open config popup
+- [ ] Auto set bigquery maximum bytes build
+- [ ] Add query header for tracing
+- [ ] Query optimization suggestion with ChatGPT
 ---
 
 This is a [Plasmo extension](https://docs.plasmo.com/) project bootstrapped with [`plasmo init`](https://www.npmjs.com/package/plasmo).
